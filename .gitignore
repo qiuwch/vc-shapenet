@@ -8,3 +8,5 @@ images/
 # Ignore any zip files we create
 *.tar.gz
 *.zip
+
+__pycache__/
