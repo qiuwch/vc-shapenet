@@ -1,0 +1,3 @@
+[submodule "rendercnn"]
+	path = rendercnn
+	url = git@github.com:ShapeNet/RenderForCNN.git
