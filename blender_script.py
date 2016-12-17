@@ -37,11 +37,12 @@ dep_paths = [
 	BASE_DIR,
 	os.path.join(BASE_DIR, 'rendercnn')
 ]
-print(dep_paths)
 for p in dep_paths:
 	sys.path.append(p)
 
 from global_variables import *
+import render_opt as opt
+
 light_num_lowbound = g_syn_light_num_lowbound
 light_num_highbound = g_syn_light_num_highbound
 light_dist_lowbound = g_syn_light_dist_lowbound
@@ -195,7 +196,7 @@ for param in view_params:
     # set environment lighting
     #bpy.context.space_data.context = 'WORLD'
     bpy.context.scene.world.light_settings.use_environment_light = True
-    bpy.context.scene.world.light_settings.environment_energy = np.random.uniform(g_syn_light_environment_energy_lowbound, g_syn_light_environment_energy_highbound)
+    bpy.context.scene.world.light_settings.environment_energy = opt.env_lighting
     bpy.context.scene.world.light_settings.environment_color = 'PLAIN'
 
     # set point lights

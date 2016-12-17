@@ -4,7 +4,7 @@ import global_variables as G
 import os.path as osp
 
 # set debug mode
-debug_mode = 1
+debug_mode = 0
 if debug_mode:
     io_redirect = ''
 else:
@@ -44,7 +44,7 @@ def call_blender(modelfile, azimuth, elevation, tilt, distance, output_img):
     )
     try:
         print render_cmd
-        os.system(render_cmd)
+        os.system('%s %s' % (render_cmd, io_redirect))
         imgs = glob.glob(temp_dirname+'/*.png')
         shutil.move(imgs[0], output_img)
     except Exception as e:
