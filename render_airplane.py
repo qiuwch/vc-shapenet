@@ -55,7 +55,8 @@ def call_blender(modelfile, azimuth, elevation, tilt, distance, output_img):
     shutil.rmtree(temp_dirname)
     
 
-def render(model_file, viewpoints, lighting):
+def render(model_file, viewpoints):
+    # Lighting is controlled in render_opt.py file
     syn_images_folder = os.path.join(BASE_DIR, 'images')
     # model_name = 'chair001'
     # image_name = 'demo_img.png'
@@ -101,9 +102,8 @@ if __name__ == '__main__':
     viewpoint_file = 'viewpoints/topdown.txt' 
     viewpoints = [[float(x) for x in line.rstrip().split(' ')] for line in open(viewpoint_file,'r')]
     
-    # specify the lighting configuration
-    lighting = []
-    
-    render(models[0], viewpoints, lighting)
-    # for model_file in models:
-    #     render(model_file)
+    if debug_mode:
+        render(models[0], viewpoints)
+    else:
+        for model_file in models:
+            render(model_file, viewpoints)
