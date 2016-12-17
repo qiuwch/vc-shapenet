@@ -33,7 +33,14 @@ import numpy as np
 
 # Load rendering light parameters
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(os.path.dirname(BASE_DIR))
+dep_paths = [
+	BASE_DIR,
+	os.path.join(BASE_DIR, 'rendercnn')
+]
+print(dep_paths)
+for p in dep_paths:
+	sys.path.append(p)
+
 from global_variables import *
 light_num_lowbound = g_syn_light_num_lowbound
 light_num_highbound = g_syn_light_num_highbound
