@@ -1,3 +1,10 @@
+# Ignore ShapeNet models
 ShapeNetCore.v1.zip
 ShapeNetCore.v1/
+
+# Ignore rendered result.
+images/
+
+# Ignore any zip files we create
 *.tar.gz
+*.zip
