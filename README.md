@@ -14,7 +14,7 @@ ShapeNet rendering scripts for visual concept
     
     Notice: The dependency on RenderForCNN is quite heavy and not necessary at all. we can consider get rid of it.
 
-## Scripts in this repository 
+## Scripts in this repository
 
 - render_airplane.py
 
@@ -24,7 +24,8 @@ ShapeNet rendering scripts for visual concept
     
     Take `[model_id]` as its input argument. Show this 3D model in blender. 
     
-    
+## Viewpoint
+The viewpoint is saved in `viewpoints/` folder.
 
     
     
