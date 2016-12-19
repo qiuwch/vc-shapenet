@@ -21,7 +21,7 @@ for model in models[:count]:
     id = match.group(1)
     
     img = 'images/{az:.1f}_{el:.1f}_{id}.png'.format(az = view[0], el = view[1], id = id)
-    row_content += '<td><img src="{img}" width="300px"/><p>{id}</p></td>\n'.format(img=img, id=id)
+    row_content += '<td><img src="{img}" width="300px"/><p><a href="{img}">{id}</a></p></td>\n'.format(img=img, id=id)
     # print img
     
     if i % row_size == 0:
