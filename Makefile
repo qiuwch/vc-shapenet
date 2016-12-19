@@ -3,7 +3,7 @@ clean:
 
 count:
 	echo "Number of rendered images"
-	ls -l images/ | wc -l
+	ls -l images/*.png | wc -l
 	echo "Number of models"
 	# 4045 in total
 	
