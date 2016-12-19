@@ -24,6 +24,20 @@ ShapeNet rendering scripts for visual concept
     
     Take `[model_id]` as its input argument. Show this 3D model in blender. 
     
+- show_preview.py
+    
+    Generate an html file containing rendered images.
+    
+## Other code
+
+- blender_script.py
+
+    The code to be executed in blender, responsible for setting up camera, loading model, etc.
+    
+- render_opt.py
+    
+    Rendering configuration code, such as lighting, etc.
+    
 ## Viewpoint
 The viewpoint is saved in `viewpoints/` folder.
 
