@@ -10,7 +10,7 @@ use git diff.
 '''
 RENDER_MODEL_VIEWS.py
 brief:
-	render projections of a 3D model from viewpoints specified by an input parameter file
+    render projections of a 3D model from viewpoints specified by an input parameter file
 usage:
 	blender blank.blend --background --python render_model_views.py -- <shape_obj_filename> <shape_category_synset> <shape_model_md5> <shape_view_param_file> <syn_img_output_folder>
 
@@ -43,10 +43,6 @@ for p in dep_paths:
 from global_variables import *
 import render_opt as opt
 
-light_num_lowbound = g_syn_light_num_lowbound
-light_num_highbound = g_syn_light_num_highbound
-light_dist_lowbound = g_syn_light_dist_lowbound
-light_dist_highbound = g_syn_light_dist_highbound
 
 
 def camPosToQuaternion(cx, cy, cz):
@@ -195,18 +191,7 @@ for param in view_params:
 
     # set environment lighting
     #bpy.context.space_data.context = 'WORLD'
-    bpy.context.scene.world.light_settings.use_environment_light = True
-    bpy.context.scene.world.light_settings.environment_energy = opt.env_lighting
-    bpy.context.scene.world.light_settings.environment_color = 'PLAIN'
-
-    # set point lights
-    for i in range(random.randint(light_num_lowbound,light_num_highbound)):
-        light_azimuth_deg = np.random.uniform(g_syn_light_azimuth_degree_lowbound, g_syn_light_azimuth_degree_highbound)
-        light_elevation_deg  = np.random.uniform(g_syn_light_elevation_degree_lowbound, g_syn_light_elevation_degree_highbound)
-        light_dist = np.random.uniform(light_dist_lowbound, light_dist_highbound)
-        lx, ly, lz = obj_centened_camera_pos(light_dist, light_azimuth_deg, light_elevation_deg)
-        bpy.ops.object.lamp_add(type='POINT', view_align = False, location=(lx, ly, lz))
-        bpy.data.objects['Point'].data.energy = np.random.normal(g_syn_light_energy_mean, g_syn_light_energy_std)
+    opt.setup_lighting()
 
     cx, cy, cz = obj_centened_camera_pos(rho, azimuth_deg, elevation_deg)
     q1 = camPosToQuaternion(cx, cy, cz)
