@@ -1,3 +1,6 @@
+demo:
+	python ./warehouse_demo.py
+
 clean:
 	rm -f *.pyc
 
