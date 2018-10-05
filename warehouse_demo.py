@@ -21,14 +21,15 @@ def render(model_filename, viewpoint_filename, output_folder):
            {abs_output_folder}'''.format(**locals())
 
     # os.system('%s %s' % (render_cmd, io_redirect))
-    print('Call blender with command "%s"', render_cmd)
+    print('Call blender with command "%s"' % render_cmd)
     subprocess.call(render_cmd, shell=True)
 
 
 if __name__ == '__main__':
-    model_filename = './examples/model.dae'
-    # viewpoint_filename = 'viewpoints/topdown.txt' 
-    viewpoint_filename = 'viewpoints/circle_viewpoints.txt'
-    output_folder = './images'
+    viewpoint_filename = 'viewpoints/topdown.txt' 
+    # viewpoint_filename = 'viewpoints/circle_viewpoints.txt'
+    for i in [1, 3, 4, 5]:
+        model_filename = './examples/book/%d/model.dae' % i
+        output_folder = './images/%d/' % i
 
-    render(model_filename, viewpoint_filename, output_folder)
+        render(model_filename, viewpoint_filename, output_folder)
