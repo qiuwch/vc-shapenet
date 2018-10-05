@@ -7,6 +7,7 @@ import os, subprocess
 
 def render(model_filename, viewpoint_filename, output_folder):
     blender_path = '/home/qiuwch/Downloads/blender-2.79b-linux-glibc219-x86_64/blender'
+    blender_path = r'C:\Program Files\Blender Foundation\Blender\blender.exe'
     abs_blank_filename = os.path.abspath('./blank.blend')
     abs_blender_script = os.path.abspath('./warehouse_blender.py')
 
@@ -14,7 +15,7 @@ def render(model_filename, viewpoint_filename, output_folder):
     abs_viewpoint_filename = os.path.abspath(viewpoint_filename)
     abs_output_folder = os.path.abspath(output_folder)
 
-    render_cmd = '{blender_path} {abs_blank_filename} --background \
+    render_cmd = '"{blender_path}" {abs_blank_filename} --background \
         --python {abs_blender_script} \
         -- {abs_model_filename} \
            {abs_viewpoint_filename} \

@@ -238,7 +238,7 @@ def main():
 
     viewpoints = read_viewpoints(abs_viewpoint_filename)
 
-    bpy.ops.wm.collada_import(filepath="")
+    bpy.ops.wm.collada_import(filepath=abs_model_filename)
     # bpy.ops.import_scene.obj(filepath=abs_model_filename)
     camObj = bpy.data.objects['Camera']
     # camObj.data.lens_unit = 'FOV'
