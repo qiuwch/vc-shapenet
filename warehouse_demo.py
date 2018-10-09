@@ -6,8 +6,8 @@ import os, subprocess
 
 
 def render(model_filename, viewpoint_filename, output_folder):
-    blender_path = '/home/qiuwch/Downloads/blender-2.79b-linux-glibc219-x86_64/blender'
-    # blender_path = r'C:\Program Files\Blender Foundation\Blender\blender.exe'
+    # blender_path = '/home/qiuwch/Downloads/blender-2.79b-linux-glibc219-x86_64/blender'
+    blender_path = r'C:\Program Files\Blender Foundation\Blender\blender.exe'
     abs_blank_filename = os.path.abspath('./blank.blend')
     abs_blender_script = os.path.abspath('./warehouse_blender.py')
 
@@ -29,8 +29,14 @@ def render(model_filename, viewpoint_filename, output_folder):
 if __name__ == '__main__':
     # viewpoint_filename = 'viewpoints/topdown.txt' 
     viewpoint_filename = 'viewpoints/circle_viewpoints.txt'
-    for i in [1, 3, 4, 5]:
-        model_filename = './examples/book/%d/model.dae' % i
+    # for i in [1, 3, 4, 5]:
+    #     model_filename = './examples/book/%d/model.dae' % i
+    #     output_folder = './images/%d/' % i
+
+    #     render(model_filename, viewpoint_filename, output_folder)
+
+    for i in [6, 7, 8, 9, 10]:
+        model_filename = './examples/car/%d/models/model_normalized.obj' % i
         output_folder = './images/%d/' % i
 
         render(model_filename, viewpoint_filename, output_folder)

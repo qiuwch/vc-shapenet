@@ -1,0 +1,917 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.2.202087883)
+
+newmtl material_0_16
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_0_24
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_10_16
+Kd 0.227451 0.227451 0.227451
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_10_24
+Kd 0.227451 0.227451 0.227451
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_11_21_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture1.jpg
+
+newmtl material_11_21_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture1.jpg
+
+newmtl material_12_16
+Kd 0.384314 0.384314 0.384314
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_13_16
+Kd 0.317647 0.317647 0.317647
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_14_16
+Kd 0.662745 0.662745 0.662745
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_14_24
+Kd 0.662745 0.662745 0.662745
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_15_16
+Kd 0.501961 0.501961 0.501961
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_16_16
+Kd 0.196078 0.803922 0.196078
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_17_16
+Kd 1 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_18_22_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture2.jpg
+
+newmtl material_19_23_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.5
+Ns 10
+illum 2
+map_Kd ../images/texture3.jpg
+
+newmtl material_1_0
+Kd 0 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_1_10_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture12.jpg
+
+newmtl material_1_11_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture20.jpg
+
+newmtl material_1_12_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture18.jpg
+
+newmtl material_1_13_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture21.jpg
+
+newmtl material_1_14_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture10.jpg
+
+newmtl material_1_15_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture11.jpg
+
+newmtl material_1_16
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_1_16_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture19.jpg
+
+newmtl material_1_17_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture22.jpg
+
+newmtl material_1_24_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture23.jpg
+
+newmtl material_1_25_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture25.jpg
+
+newmtl material_1_3_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture8.jpg
+
+newmtl material_1_4_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture9.jpg
+
+newmtl material_1_5_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture17.jpg
+
+newmtl material_1_6_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture16.jpg
+
+newmtl material_1_7_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture15.jpg
+
+newmtl material_1_8_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture14.jpg
+
+newmtl material_1_9_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture13.jpg
+
+newmtl material_20_16
+Kd 0.839216 0.839216 0.839216
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_21_16
+Kd 0.529412 0.529412 0.529412
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_22_1_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture4.jpg
+
+newmtl material_23_2_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture5.jpg
+
+newmtl material_24_16
+Kd 1 1 0.941176
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_24_24
+Kd 1 1 0.941176
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_25_16
+Kd 0.227451 0.227451 0.227451
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_26_16
+Kd 0.227451 0.227451 0.227451
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_26_24
+Kd 0.227451 0.227451 0.227451
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_27_24
+Kd 0.247059 0.247059 0.247059
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_28_26_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture6.jpg
+
+newmtl material_28_26_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture6.jpg
+
+newmtl material_29_24
+Kd 0 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_2_20_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.4
+Ns 10
+illum 2
+map_Kd ../images/texture0.jpg
+
+newmtl material_30_27_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture7.jpg
+
+newmtl material_31_24
+Kd 0.886275 0.886275 0.886275
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.3
+Ns 10
+illum 2
+
+newmtl material_32_16
+Kd 1 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_32_24
+Kd 1 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_33_16
+Kd 1 0.396078 0.396078
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_34_16
+Kd 1 0.498039 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_35_16
+Kd 0.137255 0.137255 0.137255
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_36_16
+Kd 0.752941 0.752941 0.752941
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_37_16
+Kd 0.545098 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_37_24
+Kd 0.545098 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_38_16
+Kd 0.168627 0.168627 0.168627
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_39_16
+Kd 0.411765 0.411765 0.411765
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_3_16
+Kd 0.737255 0.737255 0.737255
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_3_24
+Kd 0.737255 0.737255 0.737255
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_40_16
+Kd 0.862745 0.862745 0.862745
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_40_24
+Kd 0.862745 0.862745 0.862745
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_41_16
+Kd 0.886275 0.886275 0.886275
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_42_28_0
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture24.jpg
+
+newmtl material_43_16
+Kd 0.662745 0.662745 0.662745
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_43_24
+Kd 0.662745 0.662745 0.662745
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_44_16
+Kd 0.752941 0.752941 0.752941
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_44_24
+Kd 0.752941 0.752941 0.752941
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_45_16
+Kd 1 0.984314 0.945098
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_45_24
+Kd 1 0.984314 0.945098
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_46_16
+Kd 1 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_47_24
+Kd 0.92549 0.94902 0.898039
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.6
+Ns 10
+illum 2
+
+newmtl material_48_16
+Kd 0 0 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_49_16
+Kd 1 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_4_16
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_4_24
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_50_16
+Kd 1 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_51_16
+Kd 0.337255 0.337255 0.337255
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_51_24
+Kd 0.337255 0.337255 0.337255
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_52_24
+Kd 0.878431 0.878431 0.878431
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_53_24
+Kd 0.898039 0.756863 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_54_24
+Kd 0.407843 0.392157 0.376471
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_55_24
+Kd 0.898039 0.854902 0.113725
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.28
+Ns 10
+illum 2
+
+newmtl material_56_16
+Kd 0 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_57_16
+Kd 0.501961 0.501961 0.501961
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_57_24
+Kd 0.501961 0.501961 0.501961
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_58_24
+Kd 0.411765 0.411765 0.411765
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_59_16
+Kd 1 0.8 0.8
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_5_16
+Kd 1 0.980392 0.980392
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_60_24
+Kd 0.8 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.49
+Ns 10
+illum 2
+
+newmtl material_61_16
+Kd 0.447059 0.447059 0.447059
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_62_16
+Kd 0.8 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_63_24
+Kd 0.156863 0.156863 0.8
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.35
+Ns 10
+illum 2
+
+newmtl material_64_16
+Kd 1 0.74902 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_65_24
+Kd 0.886275 0.886275 0.886275
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.71
+Ns 10
+illum 2
+
+newmtl material_66_24
+Kd 0.8 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.22
+Ns 10
+illum 2
+
+newmtl material_67_29_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture26.png
+map_d ../images/texture26.png
+
+newmtl material_68_16
+Kd 0 0 0.8
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_69_24
+Kd 0.145098 0.145098 0.756863
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.26
+Ns 10
+illum 2
+
+newmtl material_6_24
+Kd 1 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.5
+Ns 10
+illum 2
+
+newmtl material_70_16
+Kd 0.8 0.478431 0.156863
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_70_24
+Kd 0.8 0.478431 0.156863
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_7_16
+Kd 0.137255 0.137255 0.137255
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_7_24
+Kd 0.137255 0.137255 0.137255
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_8_16
+Kd 0 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_8_24
+Kd 0 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_9_24
+Kd 0.796078 0.819608 0.819608
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 0.5
+Ns 10
+illum 2
+

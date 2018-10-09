@@ -240,6 +240,7 @@ def main():
 
     ext = os.path.splitext(abs_model_filename)
 
+    print('Load model %s' % abs_model_filename)
     if ext == '.dae': # Dae requires special handling
         bpy.ops.wm.collada_import(filepath=abs_model_filename)
     else: # For obj
