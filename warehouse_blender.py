@@ -238,8 +238,13 @@ def main():
 
     viewpoints = read_viewpoints(abs_viewpoint_filename)
 
-    bpy.ops.wm.collada_import(filepath=abs_model_filename)
-    # bpy.ops.import_scene.obj(filepath=abs_model_filename)
+    ext = os.path.splitext(abs_model_filename)
+
+    if ext == '.dae': # Dae requires special handling
+        bpy.ops.wm.collada_import(filepath=abs_model_filename)
+    else: # For obj
+        bpy.ops.import_scene.obj(filepath=abs_model_filename)
+
     camObj = bpy.data.objects['Camera']
     # camObj.data.lens_unit = 'FOV'
     # camObj.data.angle = 0.2
